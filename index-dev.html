@@ -1,0 +1,36 @@
+<html>
+<head>
+	<title>Visitor Information System</title>
+	<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+	<link rel="icon" href="icon.png" type="image/png" />
+	<link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+
+<body>
+	<div class="header">
+		<pic><img src="head.png"></pic>
+	</div>
+	
+	<div class="menu">
+		<ul>
+			<li onclick="menu('home')"><a class="tab">HOME</li>
+			<li onclick="menu('orderlist')"><a class="tab">FIND LIST</li>
+		</ul>
+	</div>
+	
+	<div id="home" class="content">
+		<a>Lorem Ipsum Dolor Sit Amet</a>
+	</div>
+	
+	<div id="orderlist" class="content">
+		<a>Search Here</a><br>
+		<input class="po" id="po" type="text" name="purchaselist"/>
+		<br><br>
+		<div id="pages" class="pages"></div>
+		<div id="data"></div>
+	</div>
+
+	<script src="jees-dev.js"></script>
+</body>
+
+</html>
