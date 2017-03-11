@@ -27,7 +27,7 @@ function search(){
 					dataDisplay(this.responseText, find);
 				}
 			}
-			var fetchurl = "echo.php";
+			var fetchurl = "200_data.json";
 	
 			fetchorder.open("GET", fetchurl, true);
 			fetchorder.send();
