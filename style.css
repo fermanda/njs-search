@@ -1,0 +1,147 @@
+body {
+	font-family: Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif;
+	color: #000000;
+}
+
+.header {
+	height: 147px;	
+	background: #37c871;	
+}
+
+.menu ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;	
+    background-color: #f1f1f1;
+}
+
+.menu ul li {
+	display: inline-block;
+	text-align: center;
+	text-decoration: none;		
+	float: left;
+	padding: 14px 16px;	
+}
+
+.menu ul li.contact {
+	display: inline-block;
+	text-align: center;
+	text-decoration: none;		
+	float: right;
+	padding: 14px 16px;
+	
+}
+
+.menu ul li:hover{
+	color: #fff;
+	background-color: #37c871;
+}
+
+h1 {
+	
+	font-weight: normal;
+}
+
+nav {
+	float: left;
+}
+
+span {
+	display: block;
+	padding-bottom: 5px;
+}
+
+.logo {
+	height: 300px;
+	width: 400px;
+	background: url("logo.png");
+}
+
+.addguest {
+	
+	margin-left: 400px;
+}
+
+.content {
+	padding: 20px;
+	display: none;
+}
+
+.po {
+	height: 30px;
+	width: 100%;
+	font-size: 20px;
+}
+
+#register input[type=text]{
+	width: 220px;
+}
+
+table {
+    border-collapse: collapse;
+	border-top: 0;
+	border-bottom: 0;
+}
+
+th {
+	border: 1px solid black;
+}
+/*
+.purchasedata table, td, th {
+	border-top: 0;
+	border-bottom: 0;
+    border-left: 1px solid black;
+	border-right: 1px solid black;
+}
+*/
+th {
+	background-color: #ffffff;
+}
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+tr:nth-child(odd) {
+    background-color: #bbbbbb;
+}
+
+form {
+	display: table;
+}
+
+p {
+	display: table-row;
+}
+
+label {
+	display: table-cell;
+	width: 150px;
+}
+
+input {
+	display: table-cell;
+}
+
+
+.pages {
+    display: inline-block;
+    float: right;
+    margin-bottom: 10px;
+}
+
+.pages a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+    border: 1px solid #ddd;
+}
+
+.pages a.active {
+    background-color: #37c871;
+    color: white;
+    border: 1px solid #4CAF50;
+}
+
+.pages a:hover:not(.active) {background-color: #ddd;}
