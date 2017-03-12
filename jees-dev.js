@@ -21,13 +21,7 @@ function menu(content){
 }
 
 setInterval(search, 100); //This line is used to excute search function every 100ms, so any change in search box will automatically updated
-<<<<<<< HEAD
 
-
-=======
-
-
->>>>>>> abd1ea4... added a little help
 //This is seach function
 function search(){
 	var purchase = document.getElementById("orderlist");	
